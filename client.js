@@ -8,6 +8,8 @@ function addPeople() {
     console.log(name.name, 'name');
     $('body').append(`
       <div>${name.name} ${name.githubUsername}</div>
+      <img src="https://github.com/${human.githubUsername}.png?size=250"
+      alt="Profile image of ${human.name}">
 
       `);
   }
