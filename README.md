@@ -49,6 +49,7 @@ function randomNumber(min, max){
 
 - If the player clicks on the correct person
   []if $(this).('click',)
+  [] if prompt = $(this).()
   - give them a success message.
   - Prompt the player to pick another person randomly and let them keep playing.
 - If they pick the wrong person
