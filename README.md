@@ -25,10 +25,12 @@ On document load, append divs for each person in the `data.js` file to the DOM w
 ## Start the Game
 
 Prompt the player to pick one of the people by displaying a randomly selected name.
+[]append a prompt of sorts to notify user
 []who is player?
 [x]what is prompt?
 [] grab a name
 [] randomly selected name
+[] get random on dom
 [x]make random
 []give pictures a number
 
