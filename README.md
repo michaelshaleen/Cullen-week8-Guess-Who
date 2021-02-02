@@ -25,6 +25,17 @@ On document load, append divs for each person in the `data.js` file to the DOM w
 ## Start the Game
 
 Prompt the player to pick one of the people by displaying a randomly selected name.
+[]who is player?
+[x]what is prompt?
+[] grab a name
+[] randomly selected name
+[x]make random
+[]give pictures a number
+
+[] make array of all people's names
+[] give each name a number
+[] number = name
+[] if 1 log dev if 2 log this if three log this try using a switch
 
 Here is a handy function to generate a random number given a minimum and maximum.
 
@@ -37,6 +48,7 @@ function randomNumber(min, max){
 ## Game Logic
 
 - If the player clicks on the correct person
+  []if $(this).('click',)
   - give them a success message.
   - Prompt the player to pick another person randomly and let them keep playing.
 - If they pick the wrong person
