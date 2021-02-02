@@ -9,10 +9,14 @@ Before you get started writing code, please update your GitHub profile to includ
 ## Display Profile Pictures
 
 On document load, append divs for each person in the `data.js` file to the DOM with jQuery (not hardcoded), each containing an image from each GitHub profile (see the provided data.js file). As an example, the below HTML would produce Chris's GitHub profile picture where `christopher-black` is Chris's GitHub username and `250` is the size of the picture requested.
+
+[x]get their github??
+[x]get their github pic
+[x] get their profile pic
 [x]format in html for stuff to go
 [x] div has id
-[] use div id for jq
-[] 250 all around
+[x] use div id for jq
+[x] 250 all around
 
 ```HTML
 <img src="https://github.com/christopher-black.png?size=250" alt="Profile image of Chris">
