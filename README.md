@@ -25,14 +25,14 @@ On document load, append divs for each person in the `data.js` file to the DOM w
 ## Start the Game
 
 Prompt the player to pick one of the people by displaying a randomly selected name.
-[]append a prompt of sorts to notify user
-[]who is player?
+[x]append a prompt of sorts to notify user
+[x]who is player?
 [x]what is prompt?
-[] grab a name
-[] randomly selected name
-[] get random on dom
+[x] grab a name
+[x] randomly selected name
+[x] get random on dom
 [x]make random
-[]give pictures a number
+[x]give pictures a number
 
 [] make array of all people's names
 [] give each name a number
@@ -50,13 +50,19 @@ function randomNumber(min, max){
 ## Game Logic
 
 - If the player clicks on the correct person
-  []if $(this).('click',)
-  [] if prompt = $(this).()
+  [x]if $(this).('click',)
+  [x] create click handlers
+  [x] click handlers show log
+  [x]
+  [x] if prompt = $(this).()
   - give them a success message.
+    []alert
   - Prompt the player to pick another person randomly and let them keep playing.
+    [] alert
 - If they pick the wrong person
   - give them an error message.
   - allow them to try again.
+    []try again
 
 ![example.gif](example.gif)
 
